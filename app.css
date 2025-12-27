@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=DM+Sans:wght@400;500&family=JetBrains+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+   letter-spacing: -0.02em;
+}
+
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.btn-primary {
+  background-color: #0F766E;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #115E59;
+  transform: scale(0.98);
+  }
+
+.btn-secondary {
+  background-color: white;
+  color: #334155;
+  border: 1px solid #E2E8F0;
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+  }
+
+.btn-secondary:hover {
+  background-color: #F8FAFC;
+}
+
+.stall-card {
+  background: white;
+  border-radius: 1rem;
+  border: 1px solid #F1F5F9;
+  overflow: hidden;
+   transition: all 0.3s;
+  cursor: pointer;
+}
+
+.stall-card:hover {
+  border-color: #5EEAD4;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(15, 118, 110, 0.15);
+}
+.score-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #0F766E;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.25rem;
+}
+.input-field {
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid #E2E8F0;
+  background-color: #F8FAFC;
+  padding: 0 1rem;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.input-field:focus {
+   outline: none;
+  border-color: #0F766E;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.1);
+}
+
+.textarea-field {
+  border-radius: 0.5rem;
+  border: 1px solid #E2E8F0;
+  background-color: #F8FAFC;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif;
+   resize: vertical;
+}
+
+.textarea-field:focus {
+  outline: none;
+  border-color: #0F766E;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.1);
+}
